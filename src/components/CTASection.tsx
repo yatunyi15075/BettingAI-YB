@@ -35,9 +35,9 @@ const CTASection: React.FC = () => {
         
         {/* Supporting Text */}
         <p className="text-lg text-blue-200 mb-12 max-w-2xl mx-auto opacity-90">
-          Join thousands of smart bettors who've already discovered the power of AI-driven predictions. 
-          Your winning streak starts now.
+            Join thousands of smart bettors who&apos;ve already discovered the power of AI-driven predictions.
         </p>
+
         
         {/* CTA Button */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

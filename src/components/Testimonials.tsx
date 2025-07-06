@@ -93,8 +93,9 @@ const Testimonials: React.FC = () => {
             What Our Users Say
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what real users think about our platform.
-          </p>
+            Don&apos;t just take our word for it. Here&apos;s what real users think about our platform.
+        </p>
+
         </div>
 
         {/* Main Testimonial Card */}
@@ -194,8 +195,9 @@ const Testimonials: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-700 text-sm line-clamp-3">
-                "{testimonial.message}"
+                &quot;{testimonial.message}&quot;
               </p>
+
               <div className="mt-3">
                 <StarRating rating={testimonial.rating} />
               </div>
