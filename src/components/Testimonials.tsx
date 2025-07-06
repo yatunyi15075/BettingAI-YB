@@ -94,8 +94,7 @@ const Testimonials: React.FC = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Don&apos;t just take our word for it. Here&apos;s what real users think about our platform.
-        </p>
-
+          </p>
         </div>
 
         {/* Main Testimonial Card */}
@@ -114,7 +113,7 @@ const Testimonials: React.FC = () => {
           <div className="relative z-10">
             <div className="text-center mb-8">
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6 font-medium">
-                "{testimonials[currentIndex].message}"
+                &ldquo;{testimonials[currentIndex].message}&rdquo;
               </p>
               <StarRating rating={testimonials[currentIndex].rating} />
             </div>
@@ -195,9 +194,8 @@ const Testimonials: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-700 text-sm line-clamp-3">
-                &quot;{testimonial.message}&quot;
+                &ldquo;{testimonial.message}&rdquo;
               </p>
-
               <div className="mt-3">
                 <StarRating rating={testimonial.rating} />
               </div>
