@@ -1,0 +1,17 @@
+src/
+├── app/
+│   ├── page.jsx           # Main landing page
+│   └── layout.jsx         # Common layout (Navbar, Footer)
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── AIPrediction.jsx
+│   ├── HowItWorks.jsx
+│   ├── Testimonials.jsx
+│   ├── Pricing.jsx
+│   ├── CTASection.jsx
+│   └── Footer.jsx
+├── styles/
+│   └── globals.css        # Already linked by Tailwind
+├── utils/
+│   └── dummyData.js       # Fake predictions/testimonials
